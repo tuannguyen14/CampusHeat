@@ -1,0 +1,24 @@
+:
+Campus Analysis Pro v1.0 License
+===============================
+
+Copyright (c) 2024 Campus Analytics Team
+
+EDUCATIONAL LICENSE:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software for educational and research purposes, subject to the 
+following conditions:
+
+1. The software may be used for educational and research purposes only
+2. Commercial use requires separate commercial license
+3. Distribution of modified versions is not permitted
+4. Original copyright notice must be retained
+
+COMMERCIAL LICENSE:
+For commercial use, enterprise features, and custom development,
+please contact: license@campusanalysis.com
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+Contact: support@campusanalysis.com
+Website: www.campusanalysis.com

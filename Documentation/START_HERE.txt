@@ -1,0 +1,26 @@
+START_HERE.txt:
+🎯 CAMPUS ANALYSIS PRO v1.0 - BẮT ĐẦU TẠI ĐÂY!
+
+👋 CHÀO MỪNG BẠN!
+Cảm ơn bạn đã tải Campus Analysis Pro - hệ thống phân tích vùng phủ đa campus.
+
+🚀 CÀI ĐẶT NHANH (3 PHÚT):
+1. Double-click: Build/install.bat
+2. Đợi cài đặt hoàn tất
+3. Copy dữ liệu Excel vào thư mục Input/
+4. Double-click: Build/run_gui.bat
+
+📱 QUICK START:
+- GUI Mode: Build/run_gui.bat
+- Console Mode: Build/run_console.bat  
+- Build EXE: Build/build_exe.bat
+
+📚 TÀI LIỆU:
+- Documentation/README.md - Hướng dẫn đầy đủ
+- Documentation/USER_GUIDE.txt - Hướng dẫn sử dụng
+
+💡 HỖ TRỢ:
+- Email: support@campusanalysis.com
+- GitHub: github.com/campus-analysis/pro
+
+🎉 CHÚC BẠN SỬ DỤNG VUI VẺ!

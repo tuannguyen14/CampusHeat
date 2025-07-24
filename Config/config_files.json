@@ -1,0 +1,153 @@
+# ================================
+# File: campus_config.json
+# Mô tả: Cấu hình chính cho Campus Analysis Pro
+# ================================
+
+{
+  "PENETRATION_RATE": 0.0162,
+  "COVERAGE_RADIUS_KM": 3.0,
+  "OVERLAP_SHARE": 0.5,
+  "STUDENTS_PER_ROOM": 100,
+  "USE_CAMPUS_SELECTION": true,
+  "SELECTED_CAMPUSES": [
+    "HCM_GR",
+    "HCM_TQB"
+  ],
+  "NEW_CAMPUSES": [
+    {
+      "Campus Code": "HCM_New_1",
+      "Campus Name": "Ho Chi Minh New Campus",
+      "lat": 10.7769,
+      "lon": 106.7009,
+      "Số phòng học": 8
+    }
+  ],
+  "INPUT_DIR": "./Input",
+  "OUTPUT_DIR": "./Output",
+  "_metadata": {
+    "version": "1.0",
+    "created": "2024-01-15",
+    "description": "Default configuration for Campus Analysis Pro",
+    "notes": "Adjust parameters based on your specific analysis needs"
+  }
+}
+
+# ================================
+# File: demo_config.json  
+# Mô tả: Cấu hình demo với nhiều campus
+# ================================
+
+{
+  "PENETRATION_RATE": 0.02,
+  "COVERAGE_RADIUS_KM": 5.0,
+  "OVERLAP_SHARE": 0.6,
+  "STUDENTS_PER_ROOM": 80,
+  "USE_CAMPUS_SELECTION": true,
+  "SELECTED_CAMPUSES": [
+    "HCM_GR",
+    "HCM_TQB", 
+    "DN_MAIN",
+    "CT_MAIN",
+    "BD_MAIN"
+  ],
+  "NEW_CAMPUSES": [
+    {
+      "Campus Code": "HCM_Demo_1",
+      "Campus Name": "Ho Chi Minh Demo Campus 1",
+      "lat": 10.7805,
+      "lon": 106.6954,
+      "Số phòng học": 12
+    },
+    {
+      "Campus Code": "HCM_Demo_2", 
+      "Campus Name": "Ho Chi Minh Demo Campus 2",
+      "lat": 10.7580,
+      "lon": 106.7021,
+      "Số phòng học": 6
+    }
+  ],
+  "INPUT_DIR": "./Sample_Data/Input",
+  "OUTPUT_DIR": "./Output",
+  "_metadata": {
+    "version": "1.0",
+    "created": "2024-01-15",
+    "description": "Demo configuration with multiple campuses",
+    "notes": "This config demonstrates analysis with both existing and new campuses"
+  }
+}
+
+# ================================
+# File: minimal_config.json
+# Mô tả: Cấu hình tối thiểu chỉ với 1 campus
+# ================================
+
+{
+  "PENETRATION_RATE": 0.015,
+  "COVERAGE_RADIUS_KM": 2.5,
+  "OVERLAP_SHARE": 0.5,
+  "STUDENTS_PER_ROOM": 100,
+  "USE_CAMPUS_SELECTION": true,
+  "SELECTED_CAMPUSES": [
+    "HCM_GR"
+  ],
+  "NEW_CAMPUSES": [],
+  "INPUT_DIR": "./Input",
+  "OUTPUT_DIR": "./Output",
+  "_metadata": {
+    "version": "1.0",
+    "created": "2024-01-15", 
+    "description": "Minimal configuration for single campus analysis",
+    "notes": "Use this for quick testing with just one campus"
+  }
+}
+
+# ================================
+# File: advanced_config.json
+# Mô tả: Cấu hình nâng cao với nhiều tùy chọn
+# ================================
+
+{
+  "PENETRATION_RATE": 0.025,
+  "COVERAGE_RADIUS_KM": 4.0,
+  "OVERLAP_SHARE": 0.4,
+  "STUDENTS_PER_ROOM": 120,
+  "USE_CAMPUS_SELECTION": true,
+  "SELECTED_CAMPUSES": [
+    "HCM_GR",
+    "HCM_TQB",
+    "DN_MAIN",
+    "CT_MAIN"
+  ],
+  "NEW_CAMPUSES": [
+    {
+      "Campus Code": "HCM_Advanced_1",
+      "Campus Name": "Ho Chi Minh Advanced Campus",
+      "lat": 10.7892,
+      "lon": 106.6845,
+      "Số phòng học": 15
+    },
+    {
+      "Campus Code": "TB_NEW_1",
+      "Campus Name": "Thai Binh New Campus",
+      "lat": 20.4463,
+      "lon": 106.3365,
+      "Số phòng học": 10
+    }
+  ],
+  "INPUT_DIR": "./Input",
+  "OUTPUT_DIR": "./Output",
+  "_advanced_settings": {
+    "export_format": "xlsx",
+    "map_style": "OpenStreetMap",
+    "polygon_opacity": 0.15,
+    "marker_size_factor": 1.2,
+    "enable_clustering": false,
+    "debug_mode": false
+  },
+  "_metadata": {
+    "version": "1.0",
+    "created": "2024-01-15",
+    "description": "Advanced configuration with extended options",
+    "notes": "Includes experimental features and advanced settings"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "PENETRATION_RATE": 0.0162,
+  "COVERAGE_RADIUS_KM": 3.0,
+  "OVERLAP_SHARE": 0.5,
+  "STUDENTS_PER_ROOM": 100,
+  "USE_CAMPUS_SELECTION": true,
+  "SELECTED_CAMPUSES": [
+    "HCM_GR",
+    "HCM_TQB"
+  ],
+  "NEW_CAMPUSES": [
+    {
+      "Campus Code": "HCM_New_1",
+      "Campus Name": "Ho Chi Minh New Campus",
+      "lat": 10.7769,
+      "lon": 106.7009,
+      "Số phòng học": 8
+    }
+  ],
+  "INPUT_DIR": "./Input",
+  "OUTPUT_DIR": "./Output"
+}
